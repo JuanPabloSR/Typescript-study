@@ -18,6 +18,6 @@ const addArrow = (a, b) => {
 }
 
 
-const result = multiply(30, 20);
+// const result = multiply(30, 20);
 
-console.log(result);
+// console.log(result);
