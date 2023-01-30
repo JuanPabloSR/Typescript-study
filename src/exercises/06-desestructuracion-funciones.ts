@@ -1,10 +1,9 @@
-console.log("Hola Mundo!!!!");
 
 /*
     ===== Código de TypeScript =====
 */
 
-interface Product {
+export interface Product {
   desc: string;
   price: number;
 }
@@ -19,7 +18,7 @@ const tablet: Product = {
   price: 1200,
 };
 
-function calculateSaleTax(product: Product[]): [number, number] {
+export function calculateSaleTax(product: Product[]): [number, number] {
   let total = 0;
 
   product.forEach(({ price }) => {
